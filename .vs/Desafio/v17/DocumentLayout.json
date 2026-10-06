@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\helio\\Documents\\GitHub\\Desafio\\DesafioDev\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\source\\repos\\Desafio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|c:\\users\\helio\\documents\\github\\desafio\\desafiodev\\desafio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|solutionrelative:desafio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|c:\\users\\helio\\documents\\github\\desafio\\desafiodev\\desafio\\quest01\\quest01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|solutionrelative:desafio\\quest01\\quest01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|c:\\users\\helio\\documents\\github\\desafio\\desafiodev\\desafio\\quest02\\quest02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|solutionrelative:desafio\\quest02\\quest02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|c:\\users\\helio\\documents\\github\\desafio\\desafiodev\\desafio\\quest03\\quest03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|C:\\Users\\Usuario\\source\\repos\\Desafio\\desafio\\quest03\\quest03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|solutionrelative:desafio\\quest03\\quest03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|c:\\users\\helio\\documents\\github\\desafio\\desafiodev\\desafio\\quest01\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|C:\\Users\\Usuario\\source\\repos\\Desafio\\desafio\\quest02\\quest02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|solutionrelative:desafio\\quest02\\quest02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|C:\\Users\\Usuario\\source\\repos\\Desafio\\desafio\\quest01\\quest01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|solutionrelative:desafio\\quest01\\quest01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|c:\\users\\usuario\\source\\repos\\desafio\\desafio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|solutionrelative:desafio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|C:\\Users\\Usuario\\source\\repos\\Desafio\\desafio\\quest01\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|solutionrelative:desafio\\quest01\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|c:\\users\\helio\\documents\\github\\desafio\\desafiodev\\desafio\\quest02\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|C:\\Users\\Usuario\\source\\repos\\Desafio\\desafio\\quest02\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|solutionrelative:desafio\\quest02\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|c:\\users\\helio\\documents\\github\\desafio\\desafiodev\\desafio\\quest02\\estoque.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|C:\\Users\\Usuario\\source\\repos\\Desafio\\desafio\\quest02\\estoque.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|solutionrelative:desafio\\quest02\\estoque.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|c:\\users\\helio\\documents\\github\\desafio\\desafiodev\\desafio\\quest01\\vendas.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|C:\\Users\\Usuario\\source\\repos\\Desafio\\desafio\\quest01\\vendas.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7A6625FF-197A-4767-BF07-4D5AA6FE06D3}|Desafio\\Desafio.csproj|solutionrelative:desafio\\quest01\\vendas.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -42,25 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\helio\\Documents\\GitHub\\Desafio\\DesafioDev\\Desafio\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Desafio\\Desafio\\Program.cs",
               "RelativeDocumentMoniker": "Desafio\\Program.cs",
-              "ToolTip": "C:\\Users\\helio\\Documents\\GitHub\\Desafio\\DesafioDev\\Desafio\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Desafio\\Desafio\\Program.cs",
               "RelativeToolTip": "Desafio\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBQAAAAWAAAAAAAAAA==",
+              "ViewState": "AQIAABsAAAAAAAAAAAAswDAAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T12:04:16.002Z",
               "EditorCaption": ""
@@ -69,89 +61,85 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Vendas.json",
-              "DocumentMoniker": "C:\\Users\\helio\\Documents\\GitHub\\Desafio\\DesafioDev\\Desafio\\Quest01\\Vendas.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Desafio\\Desafio\\Quest01\\Vendas.json",
               "RelativeDocumentMoniker": "Desafio\\Quest01\\Vendas.json",
-              "ToolTip": "C:\\Users\\helio\\Documents\\GitHub\\Desafio\\DesafioDev\\Desafio\\Quest01\\Vendas.json",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Desafio\\Desafio\\Quest01\\Vendas.json",
               "RelativeToolTip": "Desafio\\Quest01\\Vendas.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-05T15:05:01.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-05T15:05:01.385Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Estoque.json",
-              "DocumentMoniker": "C:\\Users\\helio\\Documents\\GitHub\\Desafio\\DesafioDev\\Desafio\\Quest02\\Estoque.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Desafio\\Desafio\\Quest02\\Estoque.json",
               "RelativeDocumentMoniker": "Desafio\\Quest02\\Estoque.json",
-              "ToolTip": "C:\\Users\\helio\\Documents\\GitHub\\Desafio\\DesafioDev\\Desafio\\Quest02\\Estoque.json",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Desafio\\Desafio\\Quest02\\Estoque.json",
               "RelativeToolTip": "Desafio\\Quest02\\Estoque.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-05T14:52:18.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-05T14:52:18.871Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Estoque.cs",
-              "DocumentMoniker": "C:\\Users\\helio\\Documents\\GitHub\\Desafio\\DesafioDev\\Desafio\\Quest02\\Estoque.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Desafio\\Desafio\\Quest02\\Estoque.cs",
               "RelativeDocumentMoniker": "Desafio\\Quest02\\Estoque.cs",
-              "ToolTip": "C:\\Users\\helio\\Documents\\GitHub\\Desafio\\DesafioDev\\Desafio\\Quest02\\Estoque.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Desafio\\Desafio\\Quest02\\Estoque.cs",
               "RelativeToolTip": "Desafio\\Quest02\\Estoque.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T14:20:26.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-05T14:20:26.974Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Venda.cs",
-              "DocumentMoniker": "C:\\Users\\helio\\Documents\\GitHub\\Desafio\\DesafioDev\\Desafio\\Quest01\\Venda.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Desafio\\Desafio\\Quest01\\Venda.cs",
               "RelativeDocumentMoniker": "Desafio\\Quest01\\Venda.cs",
-              "ToolTip": "C:\\Users\\helio\\Documents\\GitHub\\Desafio\\DesafioDev\\Desafio\\Quest01\\Venda.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Desafio\\Desafio\\Quest01\\Venda.cs",
               "RelativeToolTip": "Desafio\\Quest01\\Venda.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T12:36:47.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-05T12:36:47.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Quest03.cs",
-              "DocumentMoniker": "C:\\Users\\helio\\Documents\\GitHub\\Desafio\\DesafioDev\\Desafio\\Quest03\\Quest03.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Desafio\\Desafio\\Quest03\\Quest03.cs",
               "RelativeDocumentMoniker": "Desafio\\Quest03\\Quest03.cs",
-              "ToolTip": "C:\\Users\\helio\\Documents\\GitHub\\Desafio\\DesafioDev\\Desafio\\Quest03\\Quest03.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Desafio\\Desafio\\Quest03\\Quest03.cs",
               "RelativeToolTip": "Desafio\\Quest03\\Quest03.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAVAAAAAAAAAA==",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAnwEoAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T01:35:38.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Quest02.cs",
-              "DocumentMoniker": "C:\\Users\\helio\\Documents\\GitHub\\Desafio\\DesafioDev\\Desafio\\Quest02\\Quest02.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Desafio\\Desafio\\Quest02\\Quest02.cs",
               "RelativeDocumentMoniker": "Desafio\\Quest02\\Quest02.cs",
-              "ToolTip": "C:\\Users\\helio\\Documents\\GitHub\\Desafio\\DesafioDev\\Desafio\\Quest02\\Quest02.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Desafio\\Desafio\\Quest02\\Quest02.cs",
               "RelativeToolTip": "Desafio\\Quest02\\Quest02.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAADwv0kAAAAYAAAAAAAAAA==",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAswH0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T14:16:20.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Quest01.cs",
-              "DocumentMoniker": "C:\\Users\\helio\\Documents\\GitHub\\Desafio\\DesafioDev\\Desafio\\Quest01\\Quest01.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\source\\repos\\Desafio\\Desafio\\Quest01\\Quest01.cs",
               "RelativeDocumentMoniker": "Desafio\\Quest01\\Quest01.cs",
-              "ToolTip": "C:\\Users\\helio\\Documents\\GitHub\\Desafio\\DesafioDev\\Desafio\\Quest01\\Quest01.cs",
+              "ToolTip": "C:\\Users\\Usuario\\source\\repos\\Desafio\\Desafio\\Quest01\\Quest01.cs",
               "RelativeToolTip": "Desafio\\Quest01\\Quest01.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwC0AAAAaAAAAAAAAAA==",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC0AAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T12:29:21.437Z",
               "EditorCaption": ""

@@ -9,19 +9,34 @@ namespace Desafio.Quest03;
 public class Quest03
 {
 
+    public delegate void Quest03Delegate();
 
-    public void Calcaculadora()
+    public event Quest03Delegate OnMenssage;
+
+
+    public void Calculadora()
     {
-        Console.WriteLine("Calculadora de Juros");
-        Console.WriteLine("*------------------*");
+        
+
+        Console.Write("Digite o valor da dívida: R$ ");
+        if (!float.TryParse(Console.ReadLine(), CultureInfo.GetCultureInfo("pt-BR"), out float valor))
+        {
+            Console.WriteLine("Valor não numérico! Pressione qualquer tecla para um novo lançamento");
+            Console.ReadLine();
+            Console.Clear();
+            Calculadora();
+        }
         Console.WriteLine();
 
-        Console.Write("Digite o valor da dívida: R$ "); 
-        float valor = float.Parse(Console.ReadLine(), CultureInfo.GetCultureInfo("pt-BR"));
-        Console.WriteLine();
+        Console.Write("Digite a data de vencimento (dd/MM/yyyy): ");
+        if(!DateTime.TryParseExact(Console.ReadLine(),  "dd/MM/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime vencimento))
+        {
+            Console.WriteLine("Data inválida! Pressione qualquer tecla para um novo lançamento");
+            Console.ReadLine();
+            Console.Clear();
+            Calculadora();
 
-        Console.Write("Digite a data de vencimento (dd/MM/yyyy): "); 
-        DateTime vencimento = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", CultureInfo.InvariantCulture);
+        }
         Console.WriteLine();
 
 
@@ -54,11 +69,41 @@ public class Quest03
         Console.WriteLine($"Juros: R$ {juros:F2}");
         Console.WriteLine($"Valor total: R$ {valorTotal:F2}");
 
-        Console.WriteLine(); 
-        Console.WriteLine("Pressione qualquer tecla para sair..."); 
+        Console.WriteLine();
+        Console.WriteLine("Pressione qualquer tecla para voltar ao menu.");
         Console.ReadKey();
+        Console.Clear();
+        MenuCalculo();
 
+    }
 
+    public void MenuCalculo()
+    {
+        Console.WriteLine("Calculadora de Juros");
+        Console.WriteLine("*------------------*");
+        Console.WriteLine();
+
+        Console.WriteLine("1 - Calcular divida");
+        Console.WriteLine("2 - Voltar ao menu dos desafios");
+        string? command = Console.ReadLine();
+
+        switch (command)
+        {
+            case "1":
+                Console.Clear();
+                Calculadora();
+                break;
+            case "2":
+                Console.Clear();
+                OnMenssage?.Invoke();
+                break;
+            default:
+                Console.WriteLine("Nenhum comando válido! Pressione qualquer tecla.");
+                Console.ReadLine();
+                Console.Clear();
+                Calculadora();
+                break;
+        }
     }
 
 }

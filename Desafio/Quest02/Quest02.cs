@@ -11,12 +11,15 @@ namespace Desafio.Quest02
     {
         private string? json;
         private DadosEstoque? dadosEstoque;
-        
+
+        public delegate void Quest02Delegate();
+
+        public event Quest02Delegate OnMenssage;
+
         public Quest02()
         {
             json = File.ReadAllText("Quest02\\Estoque.json");
             dadosEstoque = JsonSerializer.Deserialize<DadosEstoque>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
-
         }
 
         public void BuscarEstoque()
@@ -34,7 +37,6 @@ namespace Desafio.Quest02
                 Console.WriteLine();
 
             }
-
             Voltar();
         }
 
@@ -85,12 +87,31 @@ namespace Desafio.Quest02
             Console.WriteLine();
             Console.WriteLine("Digite o código do produto");
             string? numero = Console.ReadLine();
-            int.TryParse(numero , out Int32 codigo);
+            if (!int.TryParse(numero, out Int32 codigo))
+            {
+                Console.WriteLine("Valor não numérico! Pressione qualquer tecla para voltar ao menu");
+                Console.ReadLine();
+                Console.Clear();
+                MovimentacaoEstoque();
+            }
+            if(ProcurarItemPeloCodigo(codigo) == null)
+            {
+                Console.WriteLine("Código do produto não encontrado! Pressione qualquer tecla para voltar ao menu");
+                Console.ReadLine();
+                Console.Clear();
+                MovimentacaoEstoque();
+            }
             Console.WriteLine();
 
             Console.WriteLine("Digite o valor a ser somado");
             string? valor = Console.ReadLine();
-            int.TryParse(valor, out Int32 valorASerSomado);            
+            if (!int.TryParse(valor, out Int32 valorASerSomado))
+            {
+                Console.WriteLine("Valor não numérico! Pressione qualquer tecla para voltar ao menu");
+                Console.ReadLine();
+                Console.Clear();
+                MovimentacaoEstoque();
+            }
             Console.WriteLine();
 
             Somar(codigo, valorASerSomado);
@@ -103,21 +124,45 @@ namespace Desafio.Quest02
             MostrarProduto(item);
 
             Voltar();
-                        
-        }
 
+        }
 
         public void Saida()
         {
+            Console.WriteLine("Saida de Produtos");
+            Console.WriteLine("*-----------------*");
+
             Console.WriteLine();
             Console.WriteLine("Digite o código do produto");
             string? numero = Console.ReadLine();
-            int.TryParse(numero, out Int32 codigo);
-            Console.WriteLine();
+            if (!int.TryParse(numero, out Int32 codigo))
+            {
+                Console.WriteLine("Valor não numérico! Pressione qualquer tecla para voltar ao menu");
+                Console.ReadLine();
+                Console.Clear();
+                MovimentacaoEstoque();
+            }
+            
+            if (ProcurarItemPeloCodigo(codigo) == null)
+            {
+                Console.WriteLine("Código do produto não encontrado! Pressione qualquer tecla para voltar ao menu");
+                Console.ReadLine();
+                Console.Clear();
+                MovimentacaoEstoque();
+            }
 
+            Console.WriteLine();
             Console.WriteLine("Digite o valor a ser subtraido");
             string? valor = Console.ReadLine();
-            int.TryParse(valor, out Int32 valorASerSomado);
+
+            if (!int.TryParse(valor, out Int32 valorASerSomado))
+            {
+                Console.WriteLine("Valor não numérico! Pressione qualquer tecla para voltar ao menu");
+                Console.ReadLine();
+                Console.Clear();
+                MovimentacaoEstoque();
+
+            }
             Console.WriteLine();
 
             Subtrair(codigo, valorASerSomado);
@@ -130,9 +175,8 @@ namespace Desafio.Quest02
             MostrarProduto(item);
 
             Voltar();
-
-
         }
+
 
 
         public void MostrarProduto(Estoque item)
@@ -167,6 +211,7 @@ namespace Desafio.Quest02
             Console.WriteLine("1 - Visualizar lista de produtos");
             Console.WriteLine("2 - Entrada de produtos");
             Console.WriteLine("3 - Saida de produtos");
+            Console.WriteLine("4 - Voltar ao menu dos desafios");
 
             string? input = Console.ReadLine();
 
@@ -174,18 +219,27 @@ namespace Desafio.Quest02
             {
                 case "1":
 
+                    Console.Clear();
                     BuscarEstoque();
 
                     break;
                 case "2":
 
+                    Console.Clear();
                     Entrada();
 
                     break;
                 case "3":
-                    
+
+                    Console.Clear();
                     Saida();
-                    
+
+                    break;
+
+                case "4":
+
+                    Console.Clear();
+                    OnMenssage?.Invoke();
                     break;
                 default:
                     Console.Clear();

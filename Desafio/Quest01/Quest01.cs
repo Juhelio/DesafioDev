@@ -12,9 +12,12 @@ namespace Desafio.Quest01
     {
         private string? json;
 
+        public delegate void Quest01Delegate();
+
+        public event Quest01Delegate OnMenssage;
+
         public void Resultado()
         {
-
             Console.WriteLine("Comissão dos vendedores");
             Console.WriteLine("*---------------------*");
             Console.WriteLine();
@@ -40,13 +43,12 @@ namespace Desafio.Quest01
 
                 Console.WriteLine();
             }
+            Console.WriteLine("Aperte qualquer tecla para voltar ao menu dos desafios.");
+            Console.ReadLine();
+            Console.Clear();
+            OnMenssage?.Invoke();
         }
 
-
-        public void Menu()
-        {
-            //Delegate
-        }
 
     }
 }

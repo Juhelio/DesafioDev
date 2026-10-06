@@ -31,3 +31,4 @@ C:\Users\helio\Documents\GitHub\Desafio\DesafioDev\Desafio\obj\Debug\net8.0\refi
 C:\Users\helio\Documents\GitHub\Desafio\DesafioDev\Desafio\obj\Debug\net8.0\Desafio.pdb
 C:\Users\helio\Documents\GitHub\Desafio\DesafioDev\Desafio\obj\Debug\net8.0\Desafio.genruntimeconfig.cache
 C:\Users\helio\Documents\GitHub\Desafio\DesafioDev\Desafio\obj\Debug\net8.0\ref\Desafio.dll
+C:\Users\Usuario\source\repos\Desafio\Desafio\obj\Debug\net8.0\Desafio.sourcelink.json
