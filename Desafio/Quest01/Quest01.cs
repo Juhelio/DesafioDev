@@ -12,9 +12,13 @@ namespace Desafio.Quest01
     {
         private string? json;
 
-
         public void Resultado()
         {
+
+            Console.WriteLine("Comissão dos vendedores");
+            Console.WriteLine("*---------------------*");
+            Console.WriteLine();
+
             json = File.ReadAllText("Quest01\\Vendas.json");
 
             DadosVendas? dados = JsonSerializer.Deserialize<DadosVendas>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
@@ -36,6 +40,12 @@ namespace Desafio.Quest01
 
                 Console.WriteLine();
             }
+        }
+
+
+        public void Menu()
+        {
+            //Delegate
         }
 
     }

@@ -21,12 +21,11 @@ namespace Desafio.Quest02
 
         public void BuscarEstoque()
         {
-
+            Console.Clear();
             Console.WriteLine();
             Console.WriteLine(" *--------------* ");
             Console.WriteLine("Lista de produtos");
             Console.WriteLine();
-
 
             foreach (Estoque item in dadosEstoque.estoque)
             {
@@ -77,6 +76,12 @@ namespace Desafio.Quest02
 
         public void Entrada()
         {
+            Console.Clear();
+
+            Console.WriteLine("Entrada de Produtos");
+            Console.WriteLine("*-----------------*");
+
+
             Console.WriteLine();
             Console.WriteLine("Digite o código do produto");
             string? numero = Console.ReadLine();
@@ -178,9 +183,14 @@ namespace Desafio.Quest02
 
                     break;
                 case "3":
+                    
+                    Saida();
+                    
                     break;
                 default:
+                    Console.Clear();
                     Console.WriteLine("Comando inválido!");
+                    MovimentacaoEstoque();
                     break;
 
             }
